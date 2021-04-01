@@ -1,0 +1,18 @@
+{
+  "namespace": "imagename.test.model",
+  "type": "record",
+  "name": "Job",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "requestedAt",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      }
+    }
+  ]
+}
